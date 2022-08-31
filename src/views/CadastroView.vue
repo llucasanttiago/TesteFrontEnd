@@ -1,5 +1,6 @@
 <template>
-  <div class="form">
+<div id="form">
+  <div class="container">
     <h1>Tela de cadastro de clientes</h1>
 
     <form>
@@ -96,13 +97,36 @@
           <td>Jd</td>
           <td>São paulo</td>
           <td>SP</td>
-          <td><button>Alterar</button><button>Deletar</button></td>
+          <td>
+          <a href="/"><button><img alt="alterar" id="alterar" src="../images/change.png"></button></a>
+          <a href="/"><button><img alt="deletar" id="deletar" src="../images/delete.png"></button></a>
+          </td>
+
+
         </tr>
       </tbody>
 
     </table>
 
   </div>
+</div>
 </template>
+
+
+<style scoped>
+   <style scoped>
+    #form{
+        display: flex;
+        align-items: center;
+  
+
+    }
+
+    .container{
+        display: flex; 
+        align-items: center;
+        flex-direction: column;
+    }
+</style>
 
 

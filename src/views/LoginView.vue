@@ -1,7 +1,8 @@
 <template>
-    <section class="tela-login">
+<div id="login">
+    <section class="container">
         <h1>LOGIN</h1>
-        <br>
+        
         <input type="text" placeholder="Usuário">
         <br><br>
         <input type="password" placeholder="Senha">
@@ -10,7 +11,7 @@
         <br><br>
 
     </section>
-
+</div>
     
 </template>
 
@@ -21,5 +22,19 @@ export default{
 </script>
 
 <style scoped>
+       #login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .container{
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
 
 </style>
