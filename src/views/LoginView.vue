@@ -8,7 +8,7 @@
         <br><br>
         <input class="button" type="button" value="Entrar">
         <br><br>
-        <a href="Cadastro.vue"><input class="button" type="button" value="Cadastrar"></a>
+
     </section>
 
     

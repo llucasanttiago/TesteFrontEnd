@@ -52,8 +52,55 @@
 
       <label for="uf-endereco">UF: </label>
       <input type="text" id="uf-endereco"><br><br>
-      <button>Enviar</button>
+      <button>Salvar</button>
     </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>CPF</th><br><br>
+          <th>Nome</th>
+          <th>RG</th>
+          <th>Data de expedição</th>
+          <th>Orgão de expedição</th>
+          <th>UF</th>
+          <th>Data de nascimento</th>
+          <th>Sexo</th>
+          <th>Estado civil</th>
+          <th>CEP</th>
+          <th>Logradouro</th>
+          <th>Número</th>
+          <th>Complemento</th>
+          <th>Bairro</th>
+          <th>Cidade</th>
+          <th>UF</th>
+          <th>Opções</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>11</td>
+          <td>Lucas</td>
+          <td>395902</td>
+          <td>02/20/2002</td>
+          <td>SSP</td>
+          <td>SP</td>
+          <td>02/12/2300</td>
+          <td>M</td>
+          <td>Solteiro</td>
+          <td>04854</td>
+          <td>Rua</td>
+          <td>187</td>
+          <td>Casa</td>
+          <td>Jd</td>
+          <td>São paulo</td>
+          <td>SP</td>
+          <td><button>Alterar</button><button>Deletar</button></td>
+        </tr>
+      </tbody>
+
+    </table>
 
   </div>
 </template>
